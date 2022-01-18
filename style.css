@@ -23,6 +23,11 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.gr{
+    margin: 0 auto;
 }
 
 .wraper_text {
