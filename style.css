@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'regular';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wraper {
+    height: 300vh;
+    padding-top: 60px;
+}
+
+.wraper_box {
+    height: 91vh;
+    width: 100%;
+    background-image: url(./img/20472_1\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.wraper_text {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.back_img_text {
+    color: white;
+    font-size: 18px;
+    width: fit-content;
+    margin: 70px auto 30px;
+    transition: .5s ease-in;
+}
+
+.strelka_img {
+    position: absolute;
+    top: 600px;
+    left: 680px;
+    transition: .4s ease;
+    width: 25px;
+}
+
+.strelka_img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 56px;
+    color: white;
+    line-height: 144px;
+    font-weight: 400;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 7;
+}
+
+.header_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header_text {
+    display: flex;
+}
+
+.text_header {
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    transition: .5s ease !important;
+}
+
+.text_header:hover {
+    color: rgb(175, 171, 171);
+}
+
+.img_footer {
+    margin: 20px;
+}
+
+.link_header {
+    margin-right: 20px;
+    transition: .3s ease;
+}
+
+.link_header:hover {
+    filter: invert(15%);
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.container_text {
+    font-size: 25px;
+    font-weight: 580;
+    width: fit-content;
+    letter-spacing: -1px;
+    margin: 90px auto 50px;
+}
+
+.scrol_link {
+    transition: 1s ease;
+}
+
+.big_wraper {
+    width: 675px;
+    display: grid;
+    grid-template-columns: 338px 150px 180px;
+    grid-template-rows: 310px;
+    margin: 0 auto;
+}
+
+.grid_item {
+    margin: 5px;
+    overflow: hidden;
+}
+
+.big_wraper2 {
+    width: 675px;
+    display: grid;
+    grid-template-columns: 180px 150px 338px;
+    grid-template-rows: 310px;
+    margin: 0 auto;
+}
+
+.grid_item2 {
+    margin: 5px;
+}
+
+.grid_img {
+    width: 338px;
+}
+
+.grid_img_2 {
+    width: 170px;
+}
+
+.grid_img_3 {
+    width: 185px;
+}
+
+.grid_img_4 {
+    width: 170px;
+    height: 140px;
+}
+
+.grid_img_5 {
+    width: 147px;
+    height: 300px;
+}
+
+.grid_img_6 {
+    margin-left: 10px;
+    width: 320px;
+    height: 300px;
+}
+
+.camera_photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 30px 20px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.camera_photo_img {
+    width: 40px;
+    margin-right: 16px;
+}
+
+.camera_text {
+    margin: 20px 0 20px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.camera_text_grey {
+    font-size: 13px;
+}
+
+.first_footer {
+    width: 100%;
+    height: 300px;
+    background-image: url(./img/photo\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.first_footer_p {
+    color: white;
+}
+
+.first_under {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.first_footer_h1{
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.strelka_img_2{
+    transition: .4s ease;
+    width: 25px;
+    position: relative;
+    top: 50px;
+}
+
+.strelka_img_2:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.grid_camera_shop{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+    grid-template-rows: 370px;
+    margin: 0 auto;
+}
+
+.grid_camera{
+    margin: 5px;
+}
+
+.grid_img_camera{
+    width: 230px;
+}
+
+.img2{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.grid_camera_p{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.btn_grid_cam{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    transition: .4s ease-out;
+}
+
+.btn_grid_cam:hover{
+    color: white;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_under{
+    width: 230px;
+    height: 50px;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .5s ease;
+}
+
+.btn_under:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn_under_boss{
+    width: fit-content;
+    margin: 70px auto;
+}
+
+.text{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+}
+
+.footer{
+    width: 70%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
